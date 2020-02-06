@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1979635AEADC54AF509AFFE81929D6AA /* Pods-hejreiTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8658F5F898B6358D20D11189B9174F0D /* Pods-hejreiTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38BFC3CD5480E0EEAB911DD3BD7BFCD5 /* MOLH-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 405743C636B580CDB666DD7979049BF3 /* MOLH-dummy.m */; };
+		457FF60E0C74C5CB1E9070B159110650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		45804575F8E684FA675D0088EEAFC0C3 /* Pods-hejrei-hejreiUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CDC167481719C15EBE23AA5CE2FBC /* Pods-hejrei-hejreiUITests-dummy.m */; };
+		46A843A9E8649817906128924C1AF4AE /* MOLHFontLocalizableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6E2934470CF3DD51F28B91AFF450C /* MOLHFontLocalizableViews.swift */; };
+		8D16265DA7CAD0A406817EE5A4D88A1D /* MOLHLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF800DEB344D5367B74C9220BFEAEED /* MOLHLanguage.swift */; };
+		94188A3B16F0225C9EA4FB0D66EA67DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9A7BE1A3E1D5A02BEACED64D0952217B /* MOLHFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A8D20CFE88A3F4E9C1945777DBF0E9 /* MOLHFont.swift */; };
+		9AD533305E05388B90C35909262A2975 /* MOLHSizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28256AECD5FAC4E17C93E74DEB4C2FED /* MOLHSizable.swift */; };
+		A761CC5EB589909A8FA44C6F4DA4AF2A /* Pods-hejreiTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 998829F63847F247EFCFE721BEF1A245 /* Pods-hejreiTests-dummy.m */; };
+		B00CC1179964A3E9D79E9EC2FAA65CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B1CED1A7020036EF1162C520EAF960BB /* MOLH-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DD0B2A0CB8AA16058B5B70ADCB895E /* MOLH-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C22F2857EEFBB86477EBA0528FD14854 /* Pods-hejrei-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 818F764F51314524F21C1E86089FCB97 /* Pods-hejrei-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C939CAD97C247BF28D1E3AF248309557 /* Pods-hejrei-hejreiUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1CCF70F270839FC7C0A15000CB3A46 /* Pods-hejrei-hejreiUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B1E917648334E809FDFD41ADA50B5B /* Pods-hejrei-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA5F5796666D470963C9A16A90B90A /* Pods-hejrei-dummy.m */; };
+		E270DE9CF8267344181F36624F0E4EC8 /* MOLH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7352CC0B0884C01970DC3DDF87CA /* MOLH.swift */; };
+		F4FB12BD9E24C949459BD1CB6142DAC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02D87F05F9E207345A2162DCFD057ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E17D11090C69C55E1CC5C52E359A6A;
+			remoteInfo = MOLH;
+		};
+		2171997A6809562C6F8EEF6AD32C4BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E17D11090C69C55E1CC5C52E359A6A;
+			remoteInfo = MOLH;
+		};
+		6CBD13D6A684D0CE428A49B75C0A755D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5CD084E6CB723F04853D489BB2F4A5E;
+			remoteInfo = "Pods-hejrei";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025026FC708C01EE25AD7F4A78D39BF6 /* Pods_hejreiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hejreiTests.framework; path = "Pods-hejreiTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		025AC3F252C5EC77DD89D0431614DAC5 /* Pods-hejrei-hejreiUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hejrei-hejreiUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		036B3EF5A9F05056C3F6754463D612F5 /* Pods-hejrei-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hejrei-acknowledgements.plist"; sourceTree = "<group>"; };
+		116298A0F36865D93845B992C3F0AEBD /* Pods-hejrei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hejrei.release.xcconfig"; sourceTree = "<group>"; };
+		14B7374A5203B9648C70FF74141C3F8E /* Pods-hejrei-hejreiUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hejrei-hejreiUITests.modulemap"; sourceTree = "<group>"; };
+		15A8D20CFE88A3F4E9C1945777DBF0E9 /* MOLHFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHFont.swift; path = Sources/MOLH/MOLHFont.swift; sourceTree = "<group>"; };
+		187620596DE06D45E45FFBBDCF8105F0 /* Pods-hejreiTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hejreiTests-Info.plist"; sourceTree = "<group>"; };
+		28256AECD5FAC4E17C93E74DEB4C2FED /* MOLHSizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHSizable.swift; path = Sources/MOLH/MOLHSizable.swift; sourceTree = "<group>"; };
+		2C560F55F1055746B71B23D85EE662BF /* MOLH.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MOLH.modulemap; sourceTree = "<group>"; };
+		2F1057BAAE27716B6448C182C6342544 /* Pods-hejrei-hejreiUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hejrei-hejreiUITests-Info.plist"; sourceTree = "<group>"; };
+		311C45EB43C3C4A8BE3511F76EC4030B /* Pods-hejrei-hejreiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hejrei-hejreiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		373BE49D23452AE4937B5FBCFBD4CD61 /* Pods-hejrei-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hejrei-acknowledgements.markdown"; sourceTree = "<group>"; };
+		405743C636B580CDB666DD7979049BF3 /* MOLH-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MOLH-dummy.m"; sourceTree = "<group>"; };
+		5A259AA2182D041943B8233C3B65F52E /* Pods-hejreiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hejreiTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C5CDC167481719C15EBE23AA5CE2FBC /* Pods-hejrei-hejreiUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hejrei-hejreiUITests-dummy.m"; sourceTree = "<group>"; };
+		6472B215C177875CAD1CD32A0C68F284 /* Pods_hejrei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hejrei.framework; path = "Pods-hejrei.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB63DC589B32B224BF5B762E1D61DF1 /* MOLH-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MOLH-prefix.pch"; sourceTree = "<group>"; };
+		6BD6E2934470CF3DD51F28B91AFF450C /* MOLHFontLocalizableViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHFontLocalizableViews.swift; path = Sources/MOLH/MOLHFontLocalizableViews.swift; sourceTree = "<group>"; };
+		6BDA5F5796666D470963C9A16A90B90A /* Pods-hejrei-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hejrei-dummy.m"; sourceTree = "<group>"; };
+		6DAF7352CC0B0884C01970DC3DDF87CA /* MOLH.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLH.swift; path = Sources/MOLH/MOLH.swift; sourceTree = "<group>"; };
+		6E563198F9EEB434B782D4D4E2739BF1 /* Pods-hejrei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hejrei.debug.xcconfig"; sourceTree = "<group>"; };
+		7FF800DEB344D5367B74C9220BFEAEED /* MOLHLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOLHLanguage.swift; path = Sources/MOLH/MOLHLanguage.swift; sourceTree = "<group>"; };
+		818F764F51314524F21C1E86089FCB97 /* Pods-hejrei-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hejrei-umbrella.h"; sourceTree = "<group>"; };
+		8658F5F898B6358D20D11189B9174F0D /* Pods-hejreiTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hejreiTests-umbrella.h"; sourceTree = "<group>"; };
+		8C58E064FD94065A7DDF739E6223C678 /* Pods-hejrei-hejreiUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hejrei-hejreiUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8CB57191BF2AEE66660676B9D1ECE44D /* Pods_hejrei_hejreiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hejrei_hejreiUITests.framework; path = "Pods-hejrei-hejreiUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F582D2AE8852AEFE66E62F94407BBD /* Pods-hejreiTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hejreiTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9563CDB54590104DA10DECD82D8E4FB4 /* Pods-hejrei-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hejrei-frameworks.sh"; sourceTree = "<group>"; };
+		998829F63847F247EFCFE721BEF1A245 /* Pods-hejreiTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hejreiTests-dummy.m"; sourceTree = "<group>"; };
+		9B17EC3DF914DE1877717A20D41138DB /* MOLH.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOLH.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4EEE7894643E29BDBB4D6E7B3E67237 /* MOLH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MOLH.framework; path = MOLH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D7C76E96C91DED35A4E35DDFC5FC56 /* MOLH-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MOLH-Info.plist"; sourceTree = "<group>"; };
+		AE6D69DF27041B4FD180C717AE2E764B /* Pods-hejrei-hejreiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hejrei-hejreiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B706813943BAAEDB8B29705F04CDD873 /* Pods-hejreiTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hejreiTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC1CCF70F270839FC7C0A15000CB3A46 /* Pods-hejrei-hejreiUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hejrei-hejreiUITests-umbrella.h"; sourceTree = "<group>"; };
+		BCFA4C40F37400C974AAC1BDE4F739B9 /* Pods-hejrei-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hejrei-Info.plist"; sourceTree = "<group>"; };
+		BD4C333ACCECF209826B688083D2BF66 /* Pods-hejreiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hejreiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D29B9DA57D8BBA9D1300E429A0FEDBA9 /* Pods-hejrei-hejreiUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hejrei-hejreiUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DB5D6FFB5AC3A17074CA28AC982E82CA /* Pods-hejreiTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hejreiTests.modulemap"; sourceTree = "<group>"; };
+		E9EDC71F0A61D38F453097BE7E95FF3E /* Pods-hejrei.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hejrei.modulemap"; sourceTree = "<group>"; };
+		F3DD0B2A0CB8AA16058B5B70ADCB895E /* MOLH-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MOLH-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F9998B5E610B7695CD5D0A563B77AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94188A3B16F0225C9EA4FB0D66EA67DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD309DA1F0AC71D2C7840A114B64B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457FF60E0C74C5CB1E9070B159110650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539DB726AB23AF0D7ED7997480F9E0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FB12BD9E24C949459BD1CB6142DAC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D71E91537BB41AFD75E6FD85DD1D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00CC1179964A3E9D79E9EC2FAA65CAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		275EB22279B65183E7713BC4BB3CC82C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C560F55F1055746B71B23D85EE662BF /* MOLH.modulemap */,
+				9B17EC3DF914DE1877717A20D41138DB /* MOLH.xcconfig */,
+				405743C636B580CDB666DD7979049BF3 /* MOLH-dummy.m */,
+				A6D7C76E96C91DED35A4E35DDFC5FC56 /* MOLH-Info.plist */,
+				6BB63DC589B32B224BF5B762E1D61DF1 /* MOLH-prefix.pch */,
+				F3DD0B2A0CB8AA16058B5B70ADCB895E /* MOLH-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MOLH";
+			sourceTree = "<group>";
+		};
+		4EC65111C0C4A5A932460C7A57CF549D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A04C720CCD4AA260B28020694DA91F78 /* MOLH */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F3458E37D52FF6B952EE9B7EA53C4BD /* Pods-hejrei-hejreiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14B7374A5203B9648C70FF74141C3F8E /* Pods-hejrei-hejreiUITests.modulemap */,
+				8C58E064FD94065A7DDF739E6223C678 /* Pods-hejrei-hejreiUITests-acknowledgements.markdown */,
+				025AC3F252C5EC77DD89D0431614DAC5 /* Pods-hejrei-hejreiUITests-acknowledgements.plist */,
+				5C5CDC167481719C15EBE23AA5CE2FBC /* Pods-hejrei-hejreiUITests-dummy.m */,
+				D29B9DA57D8BBA9D1300E429A0FEDBA9 /* Pods-hejrei-hejreiUITests-frameworks.sh */,
+				2F1057BAAE27716B6448C182C6342544 /* Pods-hejrei-hejreiUITests-Info.plist */,
+				BC1CCF70F270839FC7C0A15000CB3A46 /* Pods-hejrei-hejreiUITests-umbrella.h */,
+				311C45EB43C3C4A8BE3511F76EC4030B /* Pods-hejrei-hejreiUITests.debug.xcconfig */,
+				AE6D69DF27041B4FD180C717AE2E764B /* Pods-hejrei-hejreiUITests.release.xcconfig */,
+			);
+			name = "Pods-hejrei-hejreiUITests";
+			path = "Target Support Files/Pods-hejrei-hejreiUITests";
+			sourceTree = "<group>";
+		};
+		85F09113A2E842BE0D8D4CCA9CE2935D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4388A2BC95823B816E2B1C49F109908 /* Pods-hejrei */,
+				7F3458E37D52FF6B952EE9B7EA53C4BD /* Pods-hejrei-hejreiUITests */,
+				B563F5B6C9D8CD7B69CB70B0F4B1B15F /* Pods-hejreiTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A04C720CCD4AA260B28020694DA91F78 /* MOLH */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF7352CC0B0884C01970DC3DDF87CA /* MOLH.swift */,
+				15A8D20CFE88A3F4E9C1945777DBF0E9 /* MOLHFont.swift */,
+				6BD6E2934470CF3DD51F28B91AFF450C /* MOLHFontLocalizableViews.swift */,
+				7FF800DEB344D5367B74C9220BFEAEED /* MOLHLanguage.swift */,
+				28256AECD5FAC4E17C93E74DEB4C2FED /* MOLHSizable.swift */,
+				275EB22279B65183E7713BC4BB3CC82C /* Support Files */,
+			);
+			name = MOLH;
+			path = MOLH;
+			sourceTree = "<group>";
+		};
+		B4388A2BC95823B816E2B1C49F109908 /* Pods-hejrei */ = {
+			isa = PBXGroup;
+			children = (
+				E9EDC71F0A61D38F453097BE7E95FF3E /* Pods-hejrei.modulemap */,
+				373BE49D23452AE4937B5FBCFBD4CD61 /* Pods-hejrei-acknowledgements.markdown */,
+				036B3EF5A9F05056C3F6754463D612F5 /* Pods-hejrei-acknowledgements.plist */,
+				6BDA5F5796666D470963C9A16A90B90A /* Pods-hejrei-dummy.m */,
+				9563CDB54590104DA10DECD82D8E4FB4 /* Pods-hejrei-frameworks.sh */,
+				BCFA4C40F37400C974AAC1BDE4F739B9 /* Pods-hejrei-Info.plist */,
+				818F764F51314524F21C1E86089FCB97 /* Pods-hejrei-umbrella.h */,
+				6E563198F9EEB434B782D4D4E2739BF1 /* Pods-hejrei.debug.xcconfig */,
+				116298A0F36865D93845B992C3F0AEBD /* Pods-hejrei.release.xcconfig */,
+			);
+			name = "Pods-hejrei";
+			path = "Target Support Files/Pods-hejrei";
+			sourceTree = "<group>";
+		};
+		B563F5B6C9D8CD7B69CB70B0F4B1B15F /* Pods-hejreiTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB5D6FFB5AC3A17074CA28AC982E82CA /* Pods-hejreiTests.modulemap */,
+				B706813943BAAEDB8B29705F04CDD873 /* Pods-hejreiTests-acknowledgements.markdown */,
+				93F582D2AE8852AEFE66E62F94407BBD /* Pods-hejreiTests-acknowledgements.plist */,
+				998829F63847F247EFCFE721BEF1A245 /* Pods-hejreiTests-dummy.m */,
+				187620596DE06D45E45FFBBDCF8105F0 /* Pods-hejreiTests-Info.plist */,
+				8658F5F898B6358D20D11189B9174F0D /* Pods-hejreiTests-umbrella.h */,
+				BD4C333ACCECF209826B688083D2BF66 /* Pods-hejreiTests.debug.xcconfig */,
+				5A259AA2182D041943B8233C3B65F52E /* Pods-hejreiTests.release.xcconfig */,
+			);
+			name = "Pods-hejreiTests";
+			path = "Target Support Files/Pods-hejreiTests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4EC65111C0C4A5A932460C7A57CF549D /* Pods */,
+				E5CCC05CBEA844AFC089728D643CFB1B /* Products */,
+				85F09113A2E842BE0D8D4CCA9CE2935D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5CCC05CBEA844AFC089728D643CFB1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4EEE7894643E29BDBB4D6E7B3E67237 /* MOLH.framework */,
+				6472B215C177875CAD1CD32A0C68F284 /* Pods_hejrei.framework */,
+				8CB57191BF2AEE66660676B9D1ECE44D /* Pods_hejrei_hejreiUITests.framework */,
+				025026FC708C01EE25AD7F4A78D39BF6 /* Pods_hejreiTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A8F2B5A6F137BA037B1B44A6990FC6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22F2857EEFBB86477EBA0528FD14854 /* Pods-hejrei-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3F5802DCB66790401E6B8CB477B00B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1979635AEADC54AF509AFFE81929D6AA /* Pods-hejreiTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8E1903397A3808643E99DB4D6BE24B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CED1A7020036EF1162C520EAF960BB /* MOLH-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50952934B2E608EF5F641C3AE16BD07B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C939CAD97C247BF28D1E3AF248309557 /* Pods-hejrei-hejreiUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13E17D11090C69C55E1CC5C52E359A6A /* MOLH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833D8F43C1DF5876580B43A392DB332A /* Build configuration list for PBXNativeTarget "MOLH" */;
+			buildPhases = (
+				3C8E1903397A3808643E99DB4D6BE24B /* Headers */,
+				6D68D8F9B0665C649CA3EAC90362B719 /* Sources */,
+				4CD309DA1F0AC71D2C7840A114B64B5E /* Frameworks */,
+				D8BEACF8DEE7900A1B2353697EE48B66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOLH;
+			productName = MOLH;
+			productReference = A4EEE7894643E29BDBB4D6E7B3E67237 /* MOLH.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BB7060347903F3262C71C77CB5BC45E /* Pods-hejreiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C41951E01ED9F998F873D19DB277285 /* Build configuration list for PBXNativeTarget "Pods-hejreiTests" */;
+			buildPhases = (
+				2F3F5802DCB66790401E6B8CB477B00B /* Headers */,
+				DCBB0026435B35FBFB516FBEF28D8150 /* Sources */,
+				E3D71E91537BB41AFD75E6FD85DD1D85 /* Frameworks */,
+				E366913035E6B281747D0CBF8C53DC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BD99EBC24C0BC5AD3D1EEF43B6DC0F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-hejreiTests";
+			productName = "Pods-hejreiTests";
+			productReference = 025026FC708C01EE25AD7F4A78D39BF6 /* Pods_hejreiTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5CD084E6CB723F04853D489BB2F4A5E /* Pods-hejrei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9D9B35A288EC1EFD695A5E609D1A49 /* Build configuration list for PBXNativeTarget "Pods-hejrei" */;
+			buildPhases = (
+				2A8F2B5A6F137BA037B1B44A6990FC6D /* Headers */,
+				40FDE7338C1FD5962BDD27571FF9337A /* Sources */,
+				21F9998B5E610B7695CD5D0A563B77AC /* Frameworks */,
+				26B6E072FA92B6598619843B4A608CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6651863B848F923B59F16BE098F5D074 /* PBXTargetDependency */,
+			);
+			name = "Pods-hejrei";
+			productName = "Pods-hejrei";
+			productReference = 6472B215C177875CAD1CD32A0C68F284 /* Pods_hejrei.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2A3EAD11877F3F9FDAE726286DC4EA1 /* Pods-hejrei-hejreiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD8EDA62A5C7DB9B86E2604DEEAB8A1 /* Build configuration list for PBXNativeTarget "Pods-hejrei-hejreiUITests" */;
+			buildPhases = (
+				50952934B2E608EF5F641C3AE16BD07B /* Headers */,
+				D5E0969949F946F9DCDD48251B4297AC /* Sources */,
+				539DB726AB23AF0D7ED7997480F9E0F0 /* Frameworks */,
+				6C93119F1E2CCDDA0BA404FF9A4D61FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA152037BEBB34E527D51B40BF2B3F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-hejrei-hejreiUITests";
+			productName = "Pods-hejrei-hejreiUITests";
+			productReference = 8CB57191BF2AEE66660676B9D1ECE44D /* Pods_hejrei_hejreiUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E5CCC05CBEA844AFC089728D643CFB1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E17D11090C69C55E1CC5C52E359A6A /* MOLH */,
+				A5CD084E6CB723F04853D489BB2F4A5E /* Pods-hejrei */,
+				F2A3EAD11877F3F9FDAE726286DC4EA1 /* Pods-hejrei-hejreiUITests */,
+				5BB7060347903F3262C71C77CB5BC45E /* Pods-hejreiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B6E072FA92B6598619843B4A608CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C93119F1E2CCDDA0BA404FF9A4D61FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BEACF8DEE7900A1B2353697EE48B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E366913035E6B281747D0CBF8C53DC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40FDE7338C1FD5962BDD27571FF9337A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B1E917648334E809FDFD41ADA50B5B /* Pods-hejrei-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D68D8F9B0665C649CA3EAC90362B719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BFC3CD5480E0EEAB911DD3BD7BFCD5 /* MOLH-dummy.m in Sources */,
+				E270DE9CF8267344181F36624F0E4EC8 /* MOLH.swift in Sources */,
+				9A7BE1A3E1D5A02BEACED64D0952217B /* MOLHFont.swift in Sources */,
+				46A843A9E8649817906128924C1AF4AE /* MOLHFontLocalizableViews.swift in Sources */,
+				8D16265DA7CAD0A406817EE5A4D88A1D /* MOLHLanguage.swift in Sources */,
+				9AD533305E05388B90C35909262A2975 /* MOLHSizable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E0969949F946F9DCDD48251B4297AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45804575F8E684FA675D0088EEAFC0C3 /* Pods-hejrei-hejreiUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBB0026435B35FBFB516FBEF28D8150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A761CC5EB589909A8FA44C6F4DA4AF2A /* Pods-hejreiTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6651863B848F923B59F16BE098F5D074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOLH;
+			target = 13E17D11090C69C55E1CC5C52E359A6A /* MOLH */;
+			targetProxy = 02D87F05F9E207345A2162DCFD057ECB /* PBXContainerItemProxy */;
+		};
+		8BD99EBC24C0BC5AD3D1EEF43B6DC0F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-hejrei";
+			target = A5CD084E6CB723F04853D489BB2F4A5E /* Pods-hejrei */;
+			targetProxy = 6CBD13D6A684D0CE428A49B75C0A755D /* PBXContainerItemProxy */;
+		};
+		ABA152037BEBB34E527D51B40BF2B3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOLH;
+			target = 13E17D11090C69C55E1CC5C52E359A6A /* MOLH */;
+			targetProxy = 2171997A6809562C6F8EEF6AD32C4BEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08C1786EE7EC1B1401EE5E37C710226F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A259AA2182D041943B8233C3B65F52E /* Pods-hejreiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hejreiTests/Pods-hejreiTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hejreiTests/Pods-hejreiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E91256FB6D34762789FB151DABA4FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116298A0F36865D93845B992C3F0AEBD /* Pods-hejrei.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hejrei/Pods-hejrei-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hejrei/Pods-hejrei.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C4C078FECD7687CB58E293AD6E88148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4C333ACCECF209826B688083D2BF66 /* Pods-hejreiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hejreiTests/Pods-hejreiTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hejreiTests/Pods-hejreiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		393DB86F529C50566068D8454CBDB5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B17EC3DF914DE1877717A20D41138DB /* MOLH.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MOLH/MOLH-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MOLH/MOLH-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MOLH/MOLH.modulemap";
+				PRODUCT_MODULE_NAME = MOLH;
+				PRODUCT_NAME = MOLH;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6CDBD41DD573DCE01D5AD910209C8254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6D69DF27041B4FD180C717AE2E764B /* Pods-hejrei-hejreiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hejrei-hejreiUITests/Pods-hejrei-hejreiUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hejrei-hejreiUITests/Pods-hejrei-hejreiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77CAE3FEC7DD24EDF76B57D8B39FC36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E563198F9EEB434B782D4D4E2739BF1 /* Pods-hejrei.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hejrei/Pods-hejrei-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hejrei/Pods-hejrei.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A327213B49301589AABD78D950DA8B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311C45EB43C3C4A8BE3511F76EC4030B /* Pods-hejrei-hejreiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hejrei-hejreiUITests/Pods-hejrei-hejreiUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hejrei-hejreiUITests/Pods-hejrei-hejreiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4C0CFA16D085AFA21690D0B80E7F012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B17EC3DF914DE1877717A20D41138DB /* MOLH.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MOLH/MOLH-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MOLH/MOLH-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MOLH/MOLH.modulemap";
+				PRODUCT_MODULE_NAME = MOLH;
+				PRODUCT_NAME = MOLH;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C41951E01ED9F998F873D19DB277285 /* Build configuration list for PBXNativeTarget "Pods-hejreiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4C078FECD7687CB58E293AD6E88148 /* Debug */,
+				08C1786EE7EC1B1401EE5E37C710226F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BD8EDA62A5C7DB9B86E2604DEEAB8A1 /* Build configuration list for PBXNativeTarget "Pods-hejrei-hejreiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A327213B49301589AABD78D950DA8B2E /* Debug */,
+				6CDBD41DD573DCE01D5AD910209C8254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833D8F43C1DF5876580B43A392DB332A /* Build configuration list for PBXNativeTarget "MOLH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393DB86F529C50566068D8454CBDB5B2 /* Debug */,
+				C4C0CFA16D085AFA21690D0B80E7F012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9D9B35A288EC1EFD695A5E609D1A49 /* Build configuration list for PBXNativeTarget "Pods-hejrei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77CAE3FEC7DD24EDF76B57D8B39FC36A /* Debug */,
+				1E91256FB6D34762789FB151DABA4FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

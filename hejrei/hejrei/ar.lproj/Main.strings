@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "convert year"; ObjectID = "AJA-3F-AWG"; */
+"AJA-3F-AWG.normalTitle" = "حول السنة";
+
+/* Class = "UILabel"; text = "Hejri year"; ObjectID = "Ban-gM-Zui"; */
+"Ban-gM-Zui.text" = "السنة الهجرية";
+
+/* Class = "UILabel"; text = "program to convert year  Gregorian to Hejri "; ObjectID = "LaL-Y4-9ck"; */
+"LaL-Y4-9ck.text" = "برنامج لتحويل السنة من  ميلادية لهجرية ";
+
+/* Class = "UITextField"; placeholder = "Gregorian year"; ObjectID = "XWz-dW-SZY"; */
+"XWz-dW-SZY.placeholder" = "السنة الميلادية";
+
+/* Class = "UILabel"; text = "Hejri year"; ObjectID = "ZQr-fJ-Qqb"; */
+"ZQr-fJ-Qqb.text" = "السنة الهجرية";
+
+/* Class = "UILabel"; text = "Gregorian year"; ObjectID = "akP-HS-1kh"; */
+"akP-HS-1kh.text" = "السنة الميلادية";
+
+/* Class = "UIButton"; normalTitle = "ar"; ObjectID = "gO1-g9-wxE"; */
+"gO1-g9-wxE.normalTitle" = "ar";
+
+/* Class = "UIButton"; normalTitle = "entering program..."; ObjectID = "lxT-Vv-d38"; */
+"lxT-Vv-d38.normalTitle" = "الدخول للبرنامج...";

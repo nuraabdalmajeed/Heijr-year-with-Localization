@@ -1,0 +1,6 @@
+framework module Pods_hejrei {
+  umbrella header "Pods-hejrei-umbrella.h"
+
+  export *
+  module * { export * }
+}

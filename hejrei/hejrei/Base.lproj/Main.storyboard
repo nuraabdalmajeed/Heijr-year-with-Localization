@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="N3d-5S-09u">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="RO9-4a-vjH">
+            <objects>
+                <viewController id="bcW-4G-3P7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4y3-cx-Dic">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="program to convert year  Gregorian to Hejri " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaL-Y4-9ck">
+                                <rect key="frame" x="92" y="333" width="230.5" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxT-Vv-d38">
+                                <rect key="frame" x="80" y="426" width="254" height="44"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="27"/>
+                                <state key="normal" title="entering program..."/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="WzS-60-ZLw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lxT-Vv-d38" firstAttribute="centerY" secondItem="4y3-cx-Dic" secondAttribute="centerY" id="FJg-Dz-Bh8"/>
+                            <constraint firstItem="lxT-Vv-d38" firstAttribute="centerX" secondItem="4y3-cx-Dic" secondAttribute="centerX" id="Lhj-Uj-4nt"/>
+                            <constraint firstItem="lxT-Vv-d38" firstAttribute="top" secondItem="LaL-Y4-9ck" secondAttribute="bottom" constant="40" id="O8g-ot-F3X"/>
+                            <constraint firstItem="LaL-Y4-9ck" firstAttribute="centerX" secondItem="4y3-cx-Dic" secondAttribute="centerX" id="U8j-9J-7yh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d6Z-bb-KMD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="r8J-aq-FOL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bNv-LV-PbY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="373.91304347826087" y="79.6875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hejrei" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gregorian year" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akP-HS-1kh">
+                                <rect key="frame" x="242" y="138" width="142" height="25"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="23"/>
+                                <color key="textColor" red="0.74111479922279799" green="0.11176699489155506" blue="0.089016031521146177" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hejri year" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ban-gM-Zui">
+                                <rect key="frame" x="294" y="193" width="90" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.10159587258624392" green="0.43541531735751293" blue="0.042681940637315813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hejri year" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQr-fJ-Qqb">
+                                <rect key="frame" x="55" y="189" width="102" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Gregorian year" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XWz-dW-SZY">
+                                <rect key="frame" x="51" y="138" width="161" height="31"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJA-3F-AWG">
+                                <rect key="frame" x="140.5" y="279.5" width="133" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="convert year"/>
+                                <connections>
+                                    <action selector="convertdate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kdx-sU-xDk"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="KA7-sR-3t5">
+                                <rect key="frame" x="0.0" y="359" width="414" height="537"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gO1-g9-wxE">
+                                <rect key="frame" x="16" y="88" width="30" height="38"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="ar"/>
+                                <connections>
+                                    <action selector="langpress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ly-MM-idt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="akP-HS-1kh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="1ke-2Q-ohJ"/>
+                            <constraint firstItem="gO1-g9-wxE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="88" id="6r8-jp-XZY"/>
+                            <constraint firstItem="XWz-dW-SZY" firstAttribute="left" secondItem="6Tk-OE-BBY" secondAttribute="left" constant="51" id="85q-KI-c2I"/>
+                            <constraint firstItem="Ban-gM-Zui" firstAttribute="left" relation="greaterThanOrEqual" secondItem="ZQr-fJ-Qqb" secondAttribute="right" constant="8" symbolic="YES" id="8XZ-Fj-mXx"/>
+                            <constraint firstItem="XWz-dW-SZY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="8ca-3v-zwX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="right" secondItem="Ban-gM-Zui" secondAttribute="right" constant="30" id="EJ5-ec-5G2"/>
+                            <constraint firstItem="AJA-3F-AWG" firstAttribute="top" secondItem="Ban-gM-Zui" secondAttribute="bottom" constant="59.5" id="Ij8-3E-VlS"/>
+                            <constraint firstItem="ZQr-fJ-Qqb" firstAttribute="top" secondItem="XWz-dW-SZY" secondAttribute="bottom" constant="20" id="N4G-so-sci"/>
+                            <constraint firstItem="akP-HS-1kh" firstAttribute="left" relation="greaterThanOrEqual" secondItem="XWz-dW-SZY" secondAttribute="right" constant="8" symbolic="YES" id="Njr-1W-x4Z"/>
+                            <constraint firstItem="ZQr-fJ-Qqb" firstAttribute="left" secondItem="6Tk-OE-BBY" secondAttribute="left" constant="55" id="TuN-A3-fM7"/>
+                            <constraint firstItem="Ban-gM-Zui" firstAttribute="top" secondItem="akP-HS-1kh" secondAttribute="bottom" constant="30" id="XGw-KW-9Xh"/>
+                            <constraint firstItem="AJA-3F-AWG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eC5-Av-Aux"/>
+                            <constraint firstItem="gO1-g9-wxE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="idQ-9u-Awl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="right" secondItem="akP-HS-1kh" secondAttribute="right" constant="30" id="kia-2h-nUL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gO1-g9-wxE" secondAttribute="trailing" symbolic="YES" id="wsF-jM-EuV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="languagebutton" destination="gO1-g9-wxE" id="U44-KC-ElN"/>
+                        <outlet property="numbertextfield" destination="XWz-dW-SZY" id="kFa-dM-4D7"/>
+                        <outlet property="resultlabel" destination="ZQr-fJ-Qqb" id="V3K-Cs-6U6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1015.9420289855074" y="79.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kBx-l6-Eaq">
+            <objects>
+                <navigationController storyboardIdentifier="inialprograme" automaticallyAdjustsScrollViewInsets="NO" id="N3d-5S-09u" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9PN-gt-aar">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bcW-4G-3P7" kind="relationship" relationship="rootViewController" id="Irs-Et-D6K"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y0N-Xa-IBK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-274" y="80"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images-1" width="543" height="314"/>
+    </resources>
+</document>
